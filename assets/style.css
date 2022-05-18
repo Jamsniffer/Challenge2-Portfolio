@@ -1,0 +1,149 @@
+body {
+
+    height: 100%;
+    
+    border: 10px solid black;
+
+    margin: 0px;
+
+    background-color: blueviolet;
+
+}
+
+header {
+
+    display: flex;
+
+    justify-content: space-around;
+
+    background-color: blueviolet;
+
+}
+
+header h1 {
+
+    font-weight: bold;
+
+    font-size: 36px;
+
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+header nav {
+
+    display: flex;
+
+}
+
+
+header nav ul {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    list-style: none;
+
+}
+
+header nav ul li a {
+
+    padding: 10px 15px;
+
+    font-weight: normal;
+
+    font-size: 1.55vw;
+
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+    text-decoration: none;
+
+    color: black;
+
+}
+
+.hero-image {
+
+    height: 50%;
+
+    width: 100%;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    display: flex;
+
+    border: 5px solid black;
+
+    border-left: 10px;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    margin: auto;
+
+}
+
+.hero-image img {
+
+    border: 5px solid black;
+
+    display: flex;
+
+}
+
+.hunter {
+
+    height: 678px;
+
+    width: 500px;
+
+    max-width: 510px;
+
+}
+
+main {
+
+    padding: 10px;
+
+}
+
+footer {
+
+    text-align: center;
+
+    padding: 10px;
+
+    border-top: 10px solid black;
+
+}
+
+/* Projects Section*/
+
+section {
+
+    text-align: center;
+
+    
+
+}
+
+section h2 {
+
+
+
+}
+
+Section div {
+
+
+}
