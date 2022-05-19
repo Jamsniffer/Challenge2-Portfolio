@@ -99,21 +99,44 @@ header nav ul li a {
 
     display: flex;
 
+    flex: auto;
+
+    justify-content: center;
+
+    min-height: auto;
+
+    min-width: auto;
+
 }
 
 .hunter {
 
-    height: 678px;
+    max-height: 50%;
 
-    width: 500px;
+    max-width: 50%;
 
-    max-width: 510px;
+    display: flex;
+
+    flex: auto;
+
+    flex-wrap: wrap;
 
 }
 
 main {
 
     padding: 10px;
+
+}
+
+main h2 {
+
+    text-align: center;
+}
+
+main section p {
+
+    font-size: 20px;
 
 }
 
@@ -133,6 +156,12 @@ section {
 
     text-align: center;
 
+    display: flex;
+
+    flex: auto;
+
+    justify-content: center;
+
     
 
 }
@@ -145,5 +174,45 @@ section h2 {
 
 Section div {
 
+    display: flex;
+
+    flex: auto;
+
+    flex-wrap: wrap;
+
+    background-color: black;
+
+    border: 1px solid black;
+
+    width: 50%;
+
+    justify-content: space-around;
+
+    padding: 20px;
+
+    margin: 5px
+
+
+}
+
+section div a {
+
+    display: flex;
+
+    flex: auto;
+
+    flex-wrap: wrap;
+
+    background-color: azure;
+
+    border: 1px solid black;
+
+    width: 50%;
+
+    justify-content: space-around;
+
+    padding: 20px;
+
+    margin: 5px
 
 }
